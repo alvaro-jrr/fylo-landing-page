@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./styles.css" />
+		<title>
+			Frontend Mentor | Fylo landing page with two column layout
+		</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<img
+					class="header__logo"
+					src="./images/logo.svg"
+					alt="Fylo logo"
+				/>
+
+				<nav class="navbar">
+					<ul class="navbar__menu">
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">Features</a>
+						</li>
+
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">Team</a>
+						</li>
+
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">Sign In</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<section class="section">
+				<img
+                    class="section__img"
+					src="./images/illustration-1.svg"
+					alt="People storing files in folder"
+				/>
+
+				<div class="section__body">
+					<h1 class="section__title section__title--big">
+						All your files in one secure location, accessible
+						anywhere.
+					</h1>
+
+					<p class="section__paragraph section__paragraph--subtitle">
+						Fylo stores your most important files in one secure
+						location. Access them wherever you need, share and
+						collaborate with friends, family, and co-workers.
+					</p>
+
+					<form class="form">
+						<input
+							class="form__input"
+							type="email"
+							placeholder="Enter your email"
+						/>
+
+						<button class="btn">Get Started</button>
+					</form>
+				</div>
+			</section>
+
+			<section class="section">
+				<img
+                    class="section__img"
+					src="./images/illustration-2.svg"
+					alt="People sharing messages"
+				/>
+
+				<div class="section__body">
+					<h2 class="section__title">
+						Stay productive, wherever you are
+					</h2>
+
+					<p class="section__paragraph">
+						Never let location be an issue when accessing your
+						files. Fylo has you covered for all of your file
+						storage needs.
+					</p>
+
+					<p class="section__paragraph">
+						Securely share files and folders with friends,
+						family and colleagues for live collaboration. No
+						email attachments required!
+					</p>
+					
+                    <a class="section__link" href="#">
+                        See how Fylo works
+						<img
+							width="16"
+                            height="16"
+							class="section__link-icon"
+							src="./images/icon-arrow.svg"
+					    />
+                    </a>
+
+					<div class="testimonial">
+						<img
+                            class="testimonial__quotes-icon"
+							width="16"
+							height="16"
+							src="./images/icon-quotes.svg"
+						/>
+
+						<blockquote class="testimonial__description">
+							Fylo has improved our team productivity by an order
+							of magnitude. Since making the switch our team has
+							become a well-oiled collaboration machine.
+						</blockquote>
+
+						<figure class="testimonial__author">
+							<img
+								class="testimonial__author-img"
+								src="./images/avatar-testimonial.jpg"
+								alt="Profile picture"
+							/>
+
+							<figcaption>
+								<strong class="testimonial__author-name"
+									>Kyle Burton</strong
+								>
+
+								<small class="testimonial__author-work">
+									Founder & CEO, Huddle
+                                </small>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section--access">
+				<div class="section__body">
+					<h2 class="section__title section__title--light">Get early access today</h2>
+
+					<p class="section__paragraph section__paragraph--subtitle section__paragraph--ligth">
+						It only takes a minute to sign up and our free starter
+						tier is extremely generous. If you have any questions,
+						our support team would be happy to help you.
+					</p>
+				</div>
+
+				<form class="form form--column">
+					<input
+						class="form__input"
+						type="email"
+						placeholder="email@example.com"
+					/>
+					<button class="btn">Get Started For Free</button>
+				</form>
+			</section>
+
+			<footer class="footer">
+                <img
+                    class="footer__logo"
+					width="166"
+					height="49"
+					src="./images/white-logo.svg"
+					alt="Fylo logo"
+				/>					
+                
+                <nav class="footer__nav">
+					<ul class="footer__menu">
+						<li class="footer__contact">
+							<img
+                                class="footer__contact-icon"
+								src="./images/icon-phone.svg"
+								alt="Phone icon"
+							/>
+
+							<a
+								class="footer__menu-link"
+								href="tel:1-543-123-4567">
+                               
+                                Phone: +1-543-123-4567
+                            </a>
+						</li>
+
+						<li class="footer__contact">
+							<img
+                                class="footer__contact-icon"
+								src="./images/icon-email.svg"
+								alt="Email icon"
+							/>
+
+							<a
+								class="footer__menu-link"
+								href="mailto:example@fylo.com"
+								> example@fylo.com</a
+							>
+						</li>
+					</ul>
+
+					<ul class="footer__menu">
+						<li>
+							<a class="footer__menu-link" href="#">About Us</a>
+						</li>
+						<li><a class="footer__menu-link" href="#">Jobs</a></li>
+						<li>
+							<a class="footer__menu-link" href="#">Press</a>
+						</li>
+
+						<li><a class="footer__menu-link" href="#">Blog</a></li>
+					</ul>
+
+					<ul class="footer__menu">
+						<li>
+							<a class="footer__menu-link" href="#">Contact Us</a>
+						</li>
+
+						<li>
+							<a class="footer__menu-link" href="#">Terms</a>
+						</li>
+
+						<li>
+							<a class="footer__menu-link" href="#">Privacy</a>
+						</li>
+					</ul>
+				</nav>
+		</footer>
+	</body>
+</html>
