@@ -303,7 +303,6 @@ h6 {
 @media (min-width: 1024px) {
 	:root {
 		--spacing: 4rem;
-		--spacing-between-section: 8rem;
 	}
 
 	h1,
